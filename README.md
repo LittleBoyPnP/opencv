@@ -1,4 +1,4 @@
-# OpenCV 4.3.0 (packaged by [OpenPnP](http://openpnp.org))
+# OpenCV 4.5.0 (packaged by [OpenPnP](http://openpnp.org) and changed by LittleBoyPnp)
 
 [OpenCV](http://opencv.org) Java bindings packaged with native libraries, seamlessly delivered as a turn-key Maven dependency.
 
@@ -23,10 +23,6 @@ OpenPnP version and the Pattern version.
 To use this fork in your project, instead of the Pattern one, simply add
 the same dependency but with the groupId org.openpnp instead of nu.pattern.
 
-### Scala
-
-I'm not uploading Scala artifacts as I don't know or use Scala. If someone
-wants to maintain that portion of the package, let me know.
 
 ## Usage
 
@@ -105,11 +101,7 @@ The following platforms are supported by this package:
 
 OS | Architecture
 --- | ---
-OS X | x86_32
-OS X | x86_64
-Linux | x86_64
-Windows | x86_32
-Windows | x86_64
+Linux | aarch64
 
 If you can help create binaries for additional platforms, please see notes under [_Contributing_](#contributing).
 
